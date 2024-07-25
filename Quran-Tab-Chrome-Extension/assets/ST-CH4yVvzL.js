@@ -1,0 +1,1 @@
+const n=[{country:"ST",name:"São Tomé",lat:"0.33654",lng:"6.72732"},{country:"ST",name:"Santo António",lat:"1.63943",lng:"7.41951"},{country:"ST",name:"São João dos Angolares",lat:"0.13333",lng:"6.65"}];export{n as default};

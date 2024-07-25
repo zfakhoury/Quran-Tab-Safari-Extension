@@ -1,0 +1,1 @@
+# Quran Tab Safari Extension

@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D53B3A392C523FEF00DDA094 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53B3A382C523FEF00DDA094 /* AppDelegate.swift */; };
+		D53B3A3C2C523FEF00DDA094 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D53B3A3B2C523FEF00DDA094 /* Base */; };
+		D53B3A4E2C523FEF00DDA094 /* Quran Tab Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D53B3A4D2C523FEF00DDA094 /* Quran Tab Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D53B3A552C523FEF00DDA094 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D53B3A182C523FEE00DDA094 /* Base */; };
+		D53B3A572C523FEF00DDA094 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D53B3A192C523FEE00DDA094 /* Icon.png */; };
+		D53B3A592C523FEF00DDA094 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = D53B3A1A2C523FEE00DDA094 /* Style.css */; };
+		D53B3A5B2C523FEF00DDA094 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = D53B3A1B2C523FEE00DDA094 /* Script.js */; };
+		D53B3A5D2C523FEF00DDA094 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53B3A1C2C523FEE00DDA094 /* ViewController.swift */; };
+		D53B3A5F2C523FEF00DDA094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D53B3A1D2C523FEF00DDA094 /* Assets.xcassets */; };
+		D53B3A612C523FEF00DDA094 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53B3A1F2C523FEF00DDA094 /* SafariWebExtensionHandler.swift */; };
+		D53B3A802C523FEF00DDA094 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D53B3A732C523FEF00DDA094 /* icon.png */; };
+		D53B3A812C523FEF00DDA094 /* service-worker-loader.js in Resources */ = {isa = PBXBuildFile; fileRef = D53B3A742C523FEF00DDA094 /* service-worker-loader.js */; };
+		D53B3A822C523FEF00DDA094 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = D53B3A752C523FEF00DDA094 /* index.html */; };
+		D53B3A832C523FEF00DDA094 /* offscreen.html in Resources */ = {isa = PBXBuildFile; fileRef = D53B3A762C523FEF00DDA094 /* offscreen.html */; };
+		D53B3A842C523FEF00DDA094 /* icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = D53B3A772C523FEF00DDA094 /* icon128.png */; };
+		D53B3A852C523FEF00DDA094 /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = D53B3A782C523FEF00DDA094 /* _metadata */; };
+		D53B3A862C523FEF00DDA094 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = D53B3A792C523FEF00DDA094 /* manifest.json */; };
+		D53B3A872C523FEF00DDA094 /* utils.js in Resources */ = {isa = PBXBuildFile; fileRef = D53B3A7A2C523FEF00DDA094 /* utils.js */; };
+		D53B3A882C523FEF00DDA094 /* robots.txt in Resources */ = {isa = PBXBuildFile; fileRef = D53B3A7B2C523FEF00DDA094 /* robots.txt */; };
+		D53B3A892C523FEF00DDA094 /* data in Resources */ = {isa = PBXBuildFile; fileRef = D53B3A7C2C523FEF00DDA094 /* data */; };
+		D53B3A8A2C523FEF00DDA094 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = D53B3A7D2C523FEF00DDA094 /* assets */; };
+		D53B3A8B2C523FEF00DDA094 /* service_worker.js in Resources */ = {isa = PBXBuildFile; fileRef = D53B3A7E2C523FEF00DDA094 /* service_worker.js */; };
+		D53B3A8C2C523FEF00DDA094 /* document.js in Resources */ = {isa = PBXBuildFile; fileRef = D53B3A7F2C523FEF00DDA094 /* document.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D53B3A4F2C523FEF00DDA094 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D53B3A112C523FEE00DDA094 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D53B3A4C2C523FEF00DDA094;
+			remoteInfo = "Quran Tab Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D53B3A6E2C523FEF00DDA094 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D53B3A4E2C523FEF00DDA094 /* Quran Tab Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D53B3A182C523FEE00DDA094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		D53B3A192C523FEE00DDA094 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D53B3A1A2C523FEE00DDA094 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		D53B3A1B2C523FEE00DDA094 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		D53B3A1C2C523FEE00DDA094 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D53B3A1D2C523FEF00DDA094 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D53B3A1F2C523FEF00DDA094 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		D53B3A362C523FEF00DDA094 /* Quran Tab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quran Tab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53B3A382C523FEF00DDA094 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D53B3A3B2C523FEF00DDA094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D53B3A3D2C523FEF00DDA094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D53B3A3E2C523FEF00DDA094 /* Quran Tab.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Quran Tab.entitlements"; sourceTree = "<group>"; };
+		D53B3A4D2C523FEF00DDA094 /* Quran Tab Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Quran Tab Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53B3A522C523FEF00DDA094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D53B3A532C523FEF00DDA094 /* Quran Tab.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Quran Tab.entitlements"; sourceTree = "<group>"; };
+		D53B3A732C523FEF00DDA094 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "../../Quran-Tab-Chrome-Extension/icon.png"; sourceTree = "<group>"; };
+		D53B3A742C523FEF00DDA094 /* service-worker-loader.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "service-worker-loader.js"; path = "../../Quran-Tab-Chrome-Extension/service-worker-loader.js"; sourceTree = "<group>"; };
+		D53B3A752C523FEF00DDA094 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = index.html; path = "../../Quran-Tab-Chrome-Extension/index.html"; sourceTree = "<group>"; };
+		D53B3A762C523FEF00DDA094 /* offscreen.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = offscreen.html; path = "../../Quran-Tab-Chrome-Extension/offscreen.html"; sourceTree = "<group>"; };
+		D53B3A772C523FEF00DDA094 /* icon128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon128.png; path = "../../Quran-Tab-Chrome-Extension/icon128.png"; sourceTree = "<group>"; };
+		D53B3A782C523FEF00DDA094 /* _metadata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _metadata; path = "../../Quran-Tab-Chrome-Extension/_metadata"; sourceTree = "<group>"; };
+		D53B3A792C523FEF00DDA094 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../Quran-Tab-Chrome-Extension/manifest.json"; sourceTree = "<group>"; };
+		D53B3A7A2C523FEF00DDA094 /* utils.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = utils.js; path = "../../Quran-Tab-Chrome-Extension/utils.js"; sourceTree = "<group>"; };
+		D53B3A7B2C523FEF00DDA094 /* robots.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = robots.txt; path = "../../Quran-Tab-Chrome-Extension/robots.txt"; sourceTree = "<group>"; };
+		D53B3A7C2C523FEF00DDA094 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = data; path = "../../Quran-Tab-Chrome-Extension/data"; sourceTree = "<group>"; };
+		D53B3A7D2C523FEF00DDA094 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = "../../Quran-Tab-Chrome-Extension/assets"; sourceTree = "<group>"; };
+		D53B3A7E2C523FEF00DDA094 /* service_worker.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = service_worker.js; path = "../../Quran-Tab-Chrome-Extension/service_worker.js"; sourceTree = "<group>"; };
+		D53B3A7F2C523FEF00DDA094 /* document.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = document.js; path = "../../Quran-Tab-Chrome-Extension/document.js"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D53B3A332C523FEF00DDA094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53B3A4A2C523FEF00DDA094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D53B3A102C523FEE00DDA094 = {
+			isa = PBXGroup;
+			children = (
+				D53B3A152C523FEE00DDA094 /* Shared (App) */,
+				D53B3A1E2C523FEF00DDA094 /* Shared (Extension) */,
+				D53B3A372C523FEF00DDA094 /* macOS (App) */,
+				D53B3A512C523FEF00DDA094 /* macOS (Extension) */,
+				D53B3A252C523FEF00DDA094 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D53B3A152C523FEE00DDA094 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				D53B3A1C2C523FEE00DDA094 /* ViewController.swift */,
+				D53B3A1D2C523FEF00DDA094 /* Assets.xcassets */,
+				D53B3A162C523FEE00DDA094 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		D53B3A162C523FEE00DDA094 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D53B3A172C523FEE00DDA094 /* Main.html */,
+				D53B3A192C523FEE00DDA094 /* Icon.png */,
+				D53B3A1A2C523FEE00DDA094 /* Style.css */,
+				D53B3A1B2C523FEE00DDA094 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D53B3A1E2C523FEF00DDA094 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				D53B3A722C523FEF00DDA094 /* Resources */,
+				D53B3A1F2C523FEF00DDA094 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		D53B3A252C523FEF00DDA094 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D53B3A362C523FEF00DDA094 /* Quran Tab.app */,
+				D53B3A4D2C523FEF00DDA094 /* Quran Tab Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D53B3A372C523FEF00DDA094 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				D53B3A382C523FEF00DDA094 /* AppDelegate.swift */,
+				D53B3A3A2C523FEF00DDA094 /* Main.storyboard */,
+				D53B3A3D2C523FEF00DDA094 /* Info.plist */,
+				D53B3A3E2C523FEF00DDA094 /* Quran Tab.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		D53B3A512C523FEF00DDA094 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				D53B3A522C523FEF00DDA094 /* Info.plist */,
+				D53B3A532C523FEF00DDA094 /* Quran Tab.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		D53B3A722C523FEF00DDA094 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D53B3A732C523FEF00DDA094 /* icon.png */,
+				D53B3A742C523FEF00DDA094 /* service-worker-loader.js */,
+				D53B3A752C523FEF00DDA094 /* index.html */,
+				D53B3A762C523FEF00DDA094 /* offscreen.html */,
+				D53B3A772C523FEF00DDA094 /* icon128.png */,
+				D53B3A782C523FEF00DDA094 /* _metadata */,
+				D53B3A792C523FEF00DDA094 /* manifest.json */,
+				D53B3A7A2C523FEF00DDA094 /* utils.js */,
+				D53B3A7B2C523FEF00DDA094 /* robots.txt */,
+				D53B3A7C2C523FEF00DDA094 /* data */,
+				D53B3A7D2C523FEF00DDA094 /* assets */,
+				D53B3A7E2C523FEF00DDA094 /* service_worker.js */,
+				D53B3A7F2C523FEF00DDA094 /* document.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D53B3A352C523FEF00DDA094 /* Quran Tab (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D53B3A6F2C523FEF00DDA094 /* Build configuration list for PBXNativeTarget "Quran Tab (macOS)" */;
+			buildPhases = (
+				D53B3A322C523FEF00DDA094 /* Sources */,
+				D53B3A332C523FEF00DDA094 /* Frameworks */,
+				D53B3A342C523FEF00DDA094 /* Resources */,
+				D53B3A6E2C523FEF00DDA094 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D53B3A502C523FEF00DDA094 /* PBXTargetDependency */,
+			);
+			name = "Quran Tab (macOS)";
+			productName = "Quran Tab (macOS)";
+			productReference = D53B3A362C523FEF00DDA094 /* Quran Tab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D53B3A4C2C523FEF00DDA094 /* Quran Tab Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D53B3A6B2C523FEF00DDA094 /* Build configuration list for PBXNativeTarget "Quran Tab Extension (macOS)" */;
+			buildPhases = (
+				D53B3A492C523FEF00DDA094 /* Sources */,
+				D53B3A4A2C523FEF00DDA094 /* Frameworks */,
+				D53B3A4B2C523FEF00DDA094 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quran Tab Extension (macOS)";
+			productName = "Quran Tab Extension (macOS)";
+			productReference = D53B3A4D2C523FEF00DDA094 /* Quran Tab Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D53B3A112C523FEE00DDA094 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D53B3A352C523FEF00DDA094 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D53B3A4C2C523FEF00DDA094 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = D53B3A142C523FEE00DDA094 /* Build configuration list for PBXProject "Quran Tab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D53B3A102C523FEE00DDA094;
+			productRefGroup = D53B3A252C523FEF00DDA094 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D53B3A352C523FEF00DDA094 /* Quran Tab (macOS) */,
+				D53B3A4C2C523FEF00DDA094 /* Quran Tab Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D53B3A342C523FEF00DDA094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53B3A572C523FEF00DDA094 /* Icon.png in Resources */,
+				D53B3A592C523FEF00DDA094 /* Style.css in Resources */,
+				D53B3A3C2C523FEF00DDA094 /* Base in Resources */,
+				D53B3A5B2C523FEF00DDA094 /* Script.js in Resources */,
+				D53B3A5F2C523FEF00DDA094 /* Assets.xcassets in Resources */,
+				D53B3A552C523FEF00DDA094 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53B3A4B2C523FEF00DDA094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53B3A832C523FEF00DDA094 /* offscreen.html in Resources */,
+				D53B3A862C523FEF00DDA094 /* manifest.json in Resources */,
+				D53B3A822C523FEF00DDA094 /* index.html in Resources */,
+				D53B3A882C523FEF00DDA094 /* robots.txt in Resources */,
+				D53B3A892C523FEF00DDA094 /* data in Resources */,
+				D53B3A802C523FEF00DDA094 /* icon.png in Resources */,
+				D53B3A8C2C523FEF00DDA094 /* document.js in Resources */,
+				D53B3A8B2C523FEF00DDA094 /* service_worker.js in Resources */,
+				D53B3A872C523FEF00DDA094 /* utils.js in Resources */,
+				D53B3A852C523FEF00DDA094 /* _metadata in Resources */,
+				D53B3A842C523FEF00DDA094 /* icon128.png in Resources */,
+				D53B3A812C523FEF00DDA094 /* service-worker-loader.js in Resources */,
+				D53B3A8A2C523FEF00DDA094 /* assets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D53B3A322C523FEF00DDA094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53B3A5D2C523FEF00DDA094 /* ViewController.swift in Sources */,
+				D53B3A392C523FEF00DDA094 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53B3A492C523FEF00DDA094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53B3A612C523FEF00DDA094 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D53B3A502C523FEF00DDA094 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D53B3A4C2C523FEF00DDA094 /* Quran Tab Extension (macOS) */;
+			targetProxy = D53B3A4F2C523FEF00DDA094 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D53B3A172C523FEE00DDA094 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D53B3A182C523FEE00DDA094 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		D53B3A3A2C523FEF00DDA094 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D53B3A3B2C523FEF00DDA094 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D53B3A622C523FEF00DDA094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D53B3A632C523FEF00DDA094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D53B3A6C2C523FEF00DDA094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Quran Tab.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Quran Tab Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Quran-Tab.Extension";
+				PRODUCT_NAME = "Quran Tab Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D53B3A6D2C523FEF00DDA094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Quran Tab.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Quran Tab Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Quran-Tab.Extension";
+				PRODUCT_NAME = "Quran Tab Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D53B3A702C523FEF00DDA094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Quran Tab.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Quran Tab";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Quran-Tab";
+				PRODUCT_NAME = "Quran Tab";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D53B3A712C523FEF00DDA094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Quran Tab.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Quran Tab";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Quran-Tab";
+				PRODUCT_NAME = "Quran Tab";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D53B3A142C523FEE00DDA094 /* Build configuration list for PBXProject "Quran Tab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53B3A622C523FEF00DDA094 /* Debug */,
+				D53B3A632C523FEF00DDA094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D53B3A6B2C523FEF00DDA094 /* Build configuration list for PBXNativeTarget "Quran Tab Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53B3A6C2C523FEF00DDA094 /* Debug */,
+				D53B3A6D2C523FEF00DDA094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D53B3A6F2C523FEF00DDA094 /* Build configuration list for PBXNativeTarget "Quran Tab (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53B3A702C523FEF00DDA094 /* Debug */,
+				D53B3A712C523FEF00DDA094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D53B3A112C523FEE00DDA094 /* Project object */;
+}

@@ -1,0 +1,1 @@
+const t=[{country:"MS",name:"Saint Peters",lat:"16.7727",lng:"-62.21729"},{country:"MS",name:"Plymouth",lat:"16.70555",lng:"-62.21292"},{country:"MS",name:"Brades",lat:"16.79183",lng:"-62.21058"}];export{t as default};
